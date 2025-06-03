@@ -1,36 +1,40 @@
-import os
-import subprocess
+#entorno virtual con venv y pip 
+# 1. Crear entorno virtual (desde la raíz de tu proyecto)
+py -m venv venv
 
-def git_pull():
-    subprocess.run(["git", "pull", "origin", "main"])
+# 2. Activar entorno virtual (Windows)
+.\venv\Scripts\activate
 
-def git_push():
-    subprocess.run(["git", "push", "origin", "main"])
+# 3. Instalar las dependencias NECESARIAS (ej: Flask, pandas, etc)
+pip install flask pandas numpy  # Tus paquetes aquí
 
-def create_virtualenv(env_name):
-    subprocess.run([f"python -m venv {env_name}"])
+# 4. Generar requirements.txt (SOLO con los paquetes instalados)
+pip freeze > requirements.txt
 
-def activate_virtualenv(env_name):
-    if os.name == 'nt':  # Windows
-        subprocess.run([f"{env_name}\\Scripts\\activate"])
-    else:  # macOS/Linux
-        subprocess.run([f"source {env_name}/bin/activate"])
+# 5. Desactivar entorno (opcional)
+deactivate
+-----------------------------------------------------------------------------------------------------------
+#si se va a ejecturar desde otra maquina
+# 1. Activar entorno
+.\venv\Scripts\activate
 
-def docker_run(image_name):
-    subprocess.run(["docker", "run", "-it", image_name])
+# 2. Instalar dependencias desde requirements.txt
+pip install -r requirements.txt
 
-def docker_build(image_name):
-    subprocess.run(["docker", "build", "-t", image_name, "."])
+# 3. Ejecutar tu aplicación
+python main.py
 
-def docker_compose_up():
-    subprocess.run(["docker-compose", "up"])
-
-def docker_compose_down():
-    subprocess.run(["docker-compose", "down"])
 
 # Utiliza las funciones según tus necesidades
+----------------------------------------------------------------------------------------------------------------
+#comandos git
 '''
 git clone <URL_del_repositorio>
-
-
+git clone git clone https://github.com/NikolesM/python_datascience.git
+cd "project"
+git init
+git remote add origin linkssh
+git add . or git add archivo1.js
+git commit -m "fix, build, add, etc"
+git push -u origin main
 '''
