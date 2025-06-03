@@ -29,3 +29,8 @@ def docker_compose_down():
     subprocess.run(["docker-compose", "down"])
 
 # Utiliza las funciones según tus necesidades
+'''
+git clone <URL_del_repositorio>
+
+
+'''
