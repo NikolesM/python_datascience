@@ -1,69 +1,112 @@
-# 🐍 Python para Data Science
+# 🐍 Python para Data Science / Python for Data Science
 
-Repositorio con recursos, ejemplos y proyectos prácticos de Data Science utilizando Python. Ideal para principiantes que quieran aprender aplicando conceptos fundamentales en las librerias de numpy, pandas y matplotlib.
+Repositorio con recursos, ejemplos y proyectos prácticos de Data Science utilizando Python. Ideal para principiantes que quieran aprender aplicando conceptos fundamentales con librerías como NumPy, Pandas y Matplotlib.
 
-## 🚀 Características principales
+Repository with resources, examples, and practical projects for Data Science using Python. Ideal for beginners who want to learn by applying fundamental concepts with libraries like NumPy, Pandas, and Matplotlib.
 
-- **Librerías esenciales**:
-  - `numpy` para operaciones numéricas
-  - `pandas` para manipulación de datos
-  - `matplotlib` y `seaborn` para visualización
-- **Proyectos prácticos** con datasets reales
-- **Jupyter Notebooks** explicativos paso a paso
+## 🚀 Características principales / Key Features
 
-## 📋 Estructura del repositorio
+- **Librerías esenciales / Essential Libraries**:
+  - `NumPy`: Operaciones numéricas avanzadas / Advanced numerical operations
+  - `Pandas`: Manipulación y análisis de datos / Data manipulation and analysis
+  - `Matplotlib` y `Seaborn`: Visualización de datos / Data visualization
+- **Proyectos prácticos con datasets reales** / Practical projects with real datasets
+- **Jupyter Notebooks explicativos paso a paso** / Step-by-step explanatory Jupyter Notebooks
 
-/python_datascience
-├── librerias/ # Uso de bibliotecas clave
-│ ├── pandas.ipynb: creation of dataframes, strctures and functions, iloc and loc, manejo de datos faltantes, filtrado y analisis de series temporales
-│ ├── numpy.ipynb: arrays, manipulación de arrays, Indexacion y Slicing, broadcasting, concatenated, staking, split, unit, transformations with arrays and one practice example.
-│ └── matplotlib.ipynb: Personalización de graficos, series de tiempo
-├── proyectos/ # Proyectos integradores
-│ ├── Project.ipynb
-├── datasets/ online_retail.csv
-├── Dependencias: requirements.txt
-└── LICENSE: MIT
+## 📋 Estructura del repositorio / Repository Structure
 
-## ⚙️ Configuración rápida
 
-1. **Clonar repositorio**:
+/python\_datascience
 
-```bash
+│
+
+├── librerias/ # Uso de bibliotecas clave / Key libraries usage
+
+│ ├── pandas.ipynb # Creación de DataFrames, estructuras, funciones, iloc/loc,
+
+│ │ # manejo de datos faltantes, filtrado, análisis de series temporales
+
+│ │ # DataFrame creation, structures, functions, iloc/loc,
+
+│ │ # missing data handling, filtering, time series analysis
+
+│ ├── numpy.ipynb # Arrays, manipulación, indexación, slicing, broadcasting,
+
+│ │ # concatenación, stacking, split, transformaciones, ejemplo práctico
+
+│ │ # Arrays, manipulation, indexing, slicing, broadcasting,
+
+│ │ # concatenation, stacking, split, transformations, practical example
+
+│ └── matplotlib.ipynb # Personalización de gráficos, series temporales
+
+│ # Chart customization, time series visualization
+
+│
+
+├── proyectos/ # Proyectos integradores / Integrative projects
+
+│ └── Project.ipynb # Proyecto práctico completo / Complete practical project
+
+│
+
+├── datasets/ # Datasets de ejemplo / Sample datasets
+
+│ └── online\_retail.csv # Dataset de ventas retail / Retail sales dataset
+
+│
+
+├── requirements.txt # Dependencias / Dependencies
+
+└── LICENSE # Licencia MIT / MIT License
+
+## ⚙️ Configuración rápida / Quick Setup
+
+### Clonar repositorio / Clone repository
+
 git clone https://github.com/NikolesM/python_datascience.git
 cd python_datascience
 
-2. **Crear entorno virtual**:
+2. Crear entorno virtual / Create virtual environment
 
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
 .\.venv\Scripts\activate   # Window
 
-3. **Instalar dependencias**:
+3. **Instalar dependencias / Install dependencies**:
 
 pip install -r requirements.txt
 
-4. **Ejecutar notebooks**:
-abrir vscode con las extensiones de python,jupyter notebooks o ejecutrar en google colab o similar.
+4. **Ejecutar notebooks / Run notebooks**:
+Alternativas / Alternatives:
 
-📚 Recursos de aprendizaje
+* Abrir en VS Code con extensión Jupyter
+
+* Ejecutar en Google Colab o similares
+
+📚 Recursos de aprendizaje/Learning Resources
 Pandas Cheat Sheet
 https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
 Matplotlib Gallery
 https://matplotlib.org/stable/gallery/index.html
 
-🤝 ¿Cómo contribuir?
-Haz un fork del proyecto
+🤝 ¿Cómo contribuir?/How to Contribute?
+Haz un fork del proyecto / Fork the project
 
-Crea tu rama (git checkout -b feature/nueva-funcionalidad)
+Crea tu rama / Create your branch:
+git checkout -b feature/nueva-funcionalidad
 
-Haz commit de tus cambios (git commit -m 'Añade nueva funcionalidad')
+Haz commit de tus cambios / Commit your changes:
+git commit -m 'Añade nueva funcionalidad'
 
-Haz push a la rama (git push origin feature/nueva-funcionalidad)
+Haz push a la rama / Push to the branch:
+git push origin feature/nueva-funcionalidad
 
 Abre un Pull Request
 
-📄 Licencia
+📄 Licencia / License
 Este proyecto está bajo la licencia MIT.
+This project is licensed under the MIT License.
 
-Hecho con ❤️ por [Tu Nombre] - ¡Contribuciones son bienvenidas!
+Hecho con ❤️ por Nicolás Mantilla - ¡Contribuciones son bienvenidas!
 ```
