@@ -65,5 +65,5 @@ Abre un Pull Request
 📄 Licencia
 Este proyecto está bajo la licencia MIT.
 
-Hecho con ❤️ por [Tu Nombre] - ¡Contribuciones son bienvenidas!
+Hecho con ❤️ por Nicolás Mantilla - ¡Contribuciones son bienvenidas!
 ```
